@@ -1,0 +1,22 @@
+# SDCC build intermediates
+build/
+*.rel
+*.sym
+*.rst
+*.lst
+*.mem
+*.asm
+*.ihx
+*.map
+*.lk
+
+# Firmware outputs (build with build_dongle.sh)
+output/
+*.bin
+*.hex
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
